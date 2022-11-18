@@ -1,0 +1,112 @@
+.hero {
+    background-color: var(-lightest-grey-color);
+    padding-bottom: 80px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.logo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+nav > a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0 20px 0 20px;
+}
+.imgBack {
+    min-height: 100vh;
+    background-image: url(../img/hero_image.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 41px;
+}
+.mainTitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    padding-top: 20vh;
+}
+.mainParagraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    padding-top: 3vh;
+}
+.btn {
+    padding-top: 27vh;
+}
+.btn1 {
+    text-decoration: none;
+    padding: 15px;
+   background-color: var(--black1-color);
+   color: var(--white-color);
+}
+.btn2 {
+text-decoration: none;
+padding: 15px;
+background-color: var(--white-color);
+}
+.h2Header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.main {
+    padding-top: 70px;
+    background-color: var(--light-grey-color);
+    padding-bottom: 60px;
+}
+.main p {
+    padding-top: 60px;
+}
+.h3Header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+.h4Header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+}
+.paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+.whyUs {
+    display: flex;
+}
+.col1 {
+    width: 40%;
+}
+.dukBits {
+    display: inline-block;
+    display: flex;
+}
+.duk {
+    padding-top: 60px;
+}
